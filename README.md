@@ -193,4 +193,21 @@ if __name__ == '__main__':
 
 ![image](https://github.com/user-attachments/assets/b331a0e1-3ae3-4e08-80c0-5aa78a841f0e)
 
+1.5.- Probar la API
+
+Para probar la API, utilizamos Postman
+
+1.0.- Para la ruta (endpoint) http://127.0.0.1:5001/ incluir el parámetro del modelo que querramos utilizar
+
+Logistic
+![p_log](https://github.com/user-attachments/assets/984cc10c-25af-4f14-a122-d909e87d49d4)
+
+Randomforest
+![r_for](https://github.com/user-attachments/assets/0825c7a0-6f75-4492-a968-c234cb125016)
+
+SVM
+![svm](https://github.com/user-attachments/assets/658fd1cc-9321-46bb-9ed5-e1d1287e5c14)
+
+Tree decision
+![t_dec](https://github.com/user-attachments/assets/9fb0ace0-b360-4db7-8a2d-697f1d640465)
 
