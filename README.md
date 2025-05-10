@@ -22,7 +22,8 @@ Ej. Terminal IDE - Conda
 
 1.0.- Crear una carpeta llamada machine_learning_api
 
-1.1.- Dentro de la carpeta machine_learning_api Crear una carpeta llamada models
+Dentro de la carpeta machine_learning_api:
+1.1.- Crear una carpeta llamada models
 
 ![image](https://github.com/user-attachments/assets/27fd9e76-7509-49b3-adb8-2876ce9c3993)
 
@@ -166,6 +167,19 @@ if __name__ == '__main__':
 
 # Dentro del entorno virtual
 
-1.0.- Ingresar a la ruta donde se encuentra
+1.0.- Ingresar a la ruta donde se encuentra la nuestros archivos que creamos
 
+![image](https://github.com/user-attachments/assets/70f58aa1-7645-4dff-b793-b6cb4e83f515)
+
+1.1.- instalar las blibliotecas contenidas en el archivo de requirements.txt
+
+![image](https://github.com/user-attachments/assets/21d01f29-1a42-4fa4-ba69-4c067ac16d80)
+
+Al instalar las bibliotecas de flask, scikit-learn y joblib se crearán los siguientes archivos en la carpeta models:
+
+![image](https://github.com/user-attachments/assets/10427fcf-b77a-4805-8f86-315db19b79eb)
+
+![image](https://github.com/user-attachments/assets/a9930394-64c3-4797-ab7b-361116d19ba5)
+
+1.2.- 
 
