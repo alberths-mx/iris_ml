@@ -122,13 +122,17 @@ app = Flask(__name__)
 # Cargar modelos
 modelos = {
     "logistic": joblib.load("./models/model_logistic.h5"),
+    
     "randomforest": joblib.load("./models/model_forest.h5"),
+    
     "svm": joblib.load("./models/model_svm.h5"),
+    
     "tree": joblib.load("./models/model_tree.h5")
 }
 
 # Diccionario de clases
 clases_iris = {
+
     0: "setosa",
     
     1: "versicolor",
@@ -157,12 +161,16 @@ def obtener_features(request):
         petal_length = float(data['petal_length'])
         
         petal_width = float(data['petal_width'])
+        
     except (KeyError, ValueError):
+    
         return None
+        
     return [sepal_length, sepal_width, petal_length, petal_width]
 
 # Rutas
 @app.route('/', methods=['GET'])
+
 def home():
 
     return """
