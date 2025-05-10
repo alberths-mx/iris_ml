@@ -175,11 +175,22 @@ if __name__ == '__main__':
 
 ![image](https://github.com/user-attachments/assets/21d01f29-1a42-4fa4-ba69-4c067ac16d80)
 
-Al instalar las bibliotecas de flask, scikit-learn y joblib se crearán los siguientes archivos en la carpeta models:
+1.2.- Ejecutar los archivos iris_models.py y app.py
+
+![image](https://github.com/user-attachments/assets/138c1396-059d-4546-bf05-abcdc1005738)
+
+1.3.- Al ejecutar iris_models.py - se crearán lo modelos de machine learning dentro de la carpeta models
 
 ![image](https://github.com/user-attachments/assets/10427fcf-b77a-4805-8f86-315db19b79eb)
 
 ![image](https://github.com/user-attachments/assets/a9930394-64c3-4797-ab7b-361116d19ba5)
 
-1.2.- 
+1.3.- Al ejecutar app.py - se levantará el servidor necesario para realizar nuestras consultas
+
+![image](https://github.com/user-attachments/assets/be6d68ec-6408-4370-8dd0-3841b9283b6d)
+
+1.4.- Ingresar a la siguiente ruta http://127.0.0.1:5001/ para comprobar el funcionamiento del servidor
+
+![image](https://github.com/user-attachments/assets/b331a0e1-3ae3-4e08-80c0-5aa78a841f0e)
+
 
